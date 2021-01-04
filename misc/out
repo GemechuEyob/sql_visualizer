@@ -1,0 +1,70 @@
+length of parsed object : 5
+type of parsed object: <class 'tuple'>
+statement types...
+object #0
+statment typeSELECT
+object type<class 'sqlparse.sql.Statement'>
+tokens found
+     select
+      
+     a.*, b.*
+      
+     from
+      
+     test_table a
+      
+     inner join
+      
+     test_table2 b
+      
+     on
+      
+     a.id = b.id
+     ;
+object #1
+statment typeUNKNOWN
+object type<class 'sqlparse.sql.Statement'>
+tokens found
+     
+
+     ;
+      
+      
+object #2
+statment typeUNKNOWN
+object type<class 'sqlparse.sql.Statement'>
+tokens found
+     
+
+     
+
+     ;
+object #3
+statment typeSELECT
+object type<class 'sqlparse.sql.Statement'>
+tokens found
+     
+
+     with
+      
+     test_with as (
+    select * from test_table
+)
+     
+
+     
+
+     select
+      
+     *
+      
+     from
+      
+     test_with
+     ;
+object #4
+statment typeUNKNOWN
+object type<class 'sqlparse.sql.Statement'>
+tokens found
+     
+
